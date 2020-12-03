@@ -1,0 +1,114 @@
+/* screen - explore-hype */
+
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 3px solid var(--black);
+}
+.epilogue-bold-black-20px {
+  color: var(--black);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.explore-hype {
+  background-color: transparent;
+  height: 185px;
+  overflow: hidden;
+  position: relative;
+  width: 270px;
+}
+.explore-hype .a-lego-pie-ion-149287-pRIhoq {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 78px;
+  width: 175px;
+}
+.explore-hype .button-normal-pRIhoq {
+  background-color: var(--mist-gray);
+  height: 30px;
+  left: 37px;
+  position: absolute;
+  top: 135px;
+  width: 181px;
+}
+.explore-hype .ellipse-10-pRIhoq {
+  background-color: transparent;
+  height: 12px;
+  left: 40px;
+  position: absolute;
+  top: 26px;
+  width: 12px;
+}
+.explore-hype .explore-C61RwL {
+  background-color: var(--white);
+  border-radius: 62px;
+  height: 185px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 270px;
+}
+.explore-hype .hype-protocol-149286-pRIhoq {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 49px;
+  width: auto;
+}
+.explore-hype .live-149284-pRIhoq {
+  background-color: transparent;
+  height: auto;
+  left: 57px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  width: auto;
+}
+.explore-hype .vote-i14928838139-UVqNxU {
+  background-color: transparent;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: auto;
+}
+.karla-extra-bold-black-14px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-extra-bold-white-14px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-light-eerie-black-14px {
+  color: var(--eerie-black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --eerie-black: rgba(28,28,28,1.0);
+  --mist-gray: rgba(196,196,196,1.0);
+  --white: rgba(255,255,255,1.0);
+}

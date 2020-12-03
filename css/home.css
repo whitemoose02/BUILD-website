@@ -1,5 +1,18 @@
 /* screen - home */
 
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 3px solid var(--black);
+}
+.epilogue-bold-black-20px {
+  color: var(--black);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
 .home {
   background-color: rgba(0,0,0,1.0);
   height: 2309px;
@@ -13,42 +26,42 @@
   background-color: transparent;
   background-image: url(../img/arrow-1@2x.svg);
   background-size: 100% 100%;
-  height: 0px;
-  left: 352px;
+  height: 9px;
+  left: 347px;
   opacity: 1;
   position: absolute;
-  top: 130px;
-  width: 9px;
+  top: 125px;
+  width: 1px;
 }
 .home .arrow-2-Ebfosa {
-  --anima-z-index: 6;
+  --anima-z-index: 5;
   background-color: transparent;
   background-image: url(../img/arrow-2@2x.svg);
   background-size: 100% 100%;
-  height: 0px;
-  left: 1181px;
+  height: 9px;
+  left: 1183px;
   opacity: 1;
   position: absolute;
-  top: 41px;
-  width: 12px;
+  top: 36px;
+  width: 8px;
 }
 .home .build-fina-nity-38147-C61RwL {
-  --anima-z-index: 25;
+  --anima-z-index: 21;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
   font-family: "Epilogue", Helvetica, Arial, serif;
-  font-size: 46px;
+  font-size: 56px;
   height: auto;
   left: 140px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 272px;
+  top: 430px;
   width: 615px;
 }
 .home .build-fram--legos-2-1-C61RwL {
-  --anima-z-index: 27;
+  --anima-z-index: 23;
   background-color: transparent;
   background-image: url(../img/build-framework-legos-2-1@1x.png);
   background-size: 100% 100%;
@@ -60,7 +73,7 @@
   width: 407px;
 }
 .home .build-symbolsmall-1-C61RwL {
-  --anima-z-index: 13;
+  --anima-z-index: 9;
   background-color: transparent;
   background-image: url(../img/build-symbol-small-1@2x.png);
   background-size: 100% 100%;
@@ -72,7 +85,7 @@
   width: 50px;
 }
 .home .build-toke-pair-37113-C61RwL {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(28,28,28,1.0);
@@ -86,12 +99,12 @@
   line-height: 18px;
   opacity: 1;
   position: absolute;
-  text-align: justify;
+  text-align: left;
   top: 1139px;
   width: 481px;
 }
 .home .build-token-37112-C61RwL {
-  --anima-z-index: 2;
+  --anima-z-index: 1;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(0,0,0,1.0);
@@ -126,8 +139,8 @@
   top: 120px;
   width: 142px;
 }
-.home .coin-gecko-449-C61RwL {
-  --anima-z-index: 5;
+.home .coin-gecko-449-hvAGCq {
+  --anima-z-index: 0;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(0,0,0,1.0);
@@ -136,16 +149,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 755px;
+  left: 25px;
   letter-spacing: 0.00px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 1333px;
+  top: 5px;
   width: 50px;
 }
 .home .documentat--i37292386-Ebfosa {
-  --anima-z-index: 4;
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -164,7 +177,7 @@
   width: auto;
 }
 .home .ellipse-2-C61RwL {
-  --anima-z-index: 12;
+  --anima-z-index: 8;
   background-color: transparent;
   background-image: url(../img/ellipse-2@2x.svg);
   background-size: 100% 100%;
@@ -176,7 +189,7 @@
   width: 135px;
 }
 .home .ellipse-3-C61RwL {
-  --anima-z-index: 16;
+  --anima-z-index: 12;
   background-color: transparent;
   background-image: url(../img/ellipse-5@2x.svg);
   background-size: 100% 100%;
@@ -188,7 +201,7 @@
   width: 135px;
 }
 .home .ellipse-4-C61RwL {
-  --anima-z-index: 15;
+  --anima-z-index: 11;
   background-color: transparent;
   background-image: url(../img/ellipse-5@2x.svg);
   background-size: 100% 100%;
@@ -200,7 +213,7 @@
   width: 135px;
 }
 .home .ellipse-5-C61RwL {
-  --anima-z-index: 11;
+  --anima-z-index: 7;
   background-color: transparent;
   background-image: url(../img/ellipse-5@2x.svg);
   background-size: 100% 100%;
@@ -212,7 +225,7 @@
   width: 135px;
 }
 .home .ellipse-6-C61RwL {
-  --anima-z-index: 14;
+  --anima-z-index: 10;
   background-color: transparent;
   background-image: url(../img/ellipse-5@2x.svg);
   background-size: 100% 100%;
@@ -224,7 +237,7 @@
   width: 135px;
 }
 .home .ellipse-7-C61RwL {
-  --anima-z-index: 20;
+  --anima-z-index: 16;
   background-color: transparent;
   background-image: url(../img/ellipse-7@2x.svg);
   background-size: 100% 100%;
@@ -236,7 +249,7 @@
   width: 10px;
 }
 .home .ellipse-8-C61RwL {
-  --anima-z-index: 21;
+  --anima-z-index: 17;
   background-color: transparent;
   background-image: url(../img/ellipse-8@2x.svg);
   background-size: 100% 100%;
@@ -247,8 +260,8 @@
   top: 1779px;
   width: 10px;
 }
-.home .etherscan-4410-C61RwL {
-  --anima-z-index: 7;
+.home .etherscan-4410-zUixHA {
+  --anima-z-index: 0;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(0,0,0,1.0);
@@ -257,16 +270,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 875px;
+  left: 26px;
   letter-spacing: 0.00px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 1332px;
+  top: 4px;
   width: 47px;
 }
 .home .footer-C61RwL {
-  --anima-z-index: 28;
+  --anima-z-index: 24;
   background-color: transparent;
   height: 207px;
   left: 0px;
@@ -276,27 +289,41 @@
   width: 1440px;
 }
 .home .frame-1-C61RwL {
-  --anima-z-index: 19;
+  --anima-z-index: 15;
   background-color: rgba(0,0,0,1.0);
   height: 33px;
   left: 673px;
   opacity: 1;
+  pointer-events: auto;
   position: absolute;
   top: 1637px;
+  transition: all 0.2s ease;
   width: 115px;
 }
+.home .frame-1-C61RwL:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
 .home .frame-2-C61RwL {
-  --anima-z-index: 4;
+  --anima-z-index: 3;
   background-color: rgba(9,9,9,1.0);
   height: 33px;
   left: 1009px;
   opacity: 1;
+  pointer-events: auto;
   position: absolute;
   top: 1077px;
+  transition: all 0.2s ease;
   width: 115px;
 }
+.home .frame-2-C61RwL:hover {
+
+transform: translate(0, -5px);
+box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+}
 .home .get-in-tou--i37292387-Ebfosa {
-  --anima-z-index: 5;
+  --anima-z-index: 4;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -351,7 +378,7 @@
   width: 142px;
 }
 .home .governance-37125-C61RwL {
-  --anima-z-index: 18;
+  --anima-z-index: 14;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(0,0,0,1.0);
@@ -386,8 +413,38 @@
   top: 120px;
   width: 142px;
 }
+.home .group-2-C61RwL {
+  --anima-z-index: 5;
+  background-color: transparent;
+  height: 18px;
+  left: 849px;
+  opacity: 1;
+  position: absolute;
+  top: 1328px;
+  width: 73px;
+}
+.home .group-3-C61RwL {
+  --anima-z-index: 4;
+  background-color: transparent;
+  height: 19px;
+  left: 730px;
+  opacity: 1;
+  position: absolute;
+  top: 1328px;
+  width: 75px;
+}
+.home .group-4-C61RwL {
+  --anima-z-index: 6;
+  background-color: transparent;
+  height: 23px;
+  left: 966px;
+  opacity: 1;
+  position: absolute;
+  top: 1324px;
+  width: 70px;
+}
 .home .image-1-Ebfosa {
-  --anima-z-index: 7;
+  --anima-z-index: 6;
   background-color: transparent;
   background-image: url(../img/image-1@2x.jpg);
   background-size: 100% 100%;
@@ -482,66 +539,18 @@
   top: 152px;
   width: 27px;
 }
-.home .line-1-Ebfosa {
-  --anima-z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/line-4@1x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 0px;
-  opacity: 1;
-  position: absolute;
-  top: 86px;
-  width: 1440px;
-}
-.home .line-2-Ebfosa {
-  --anima-z-index: 2;
-  background-color: transparent;
-  background-image: url(../img/line-2@2x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 781px;
-  opacity: 1;
-  position: absolute;
-  top: 43px;
-  width: 86px;
-}
-.home .line-3-C61RwL {
-  --anima-z-index: 22;
-  background-color: transparent;
-  background-image: url(../img/line-3@2x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 1014px;
-  opacity: 1;
-  position: absolute;
-  top: 1828px;
-  width: 135px;
-}
-.home .line-4-iPe1yZ {
-  --anima-z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/line-4@1x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 0px;
-  opacity: 1;
-  position: absolute;
-  top: 20px;
-  width: 1440px;
-}
 .home .nav-C61RwL {
-  --anima-z-index: 29;
+  --anima-z-index: 25;
   background-color: transparent;
   height: 86px;
   left: 0px;
   opacity: 1;
-  position: absolute;
+  position: fixed;
   top: 0px;
   width: 1440px;
 }
 .home .products-i37292385-Ebfosa {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -562,6 +571,7 @@
 .home .rectangle-1-Ebfosa {
   --anima-z-index: 0;
   background-color: rgba(0,0,0,1.0);
+  border: 1px solid rgba(255,255,255,1.0);
   height: 86px;
   left: 0px;
   opacity: 1;
@@ -569,18 +579,19 @@
   top: 0px;
   width: 1440px;
 }
-.home .rectangle-2-C61RwL {
-  --anima-z-index: 0;
-  background-color: rgba(246,246,246,1.0);
-  height: 1164px;
-  left: 0px;
+.home .rectangle-2-Ebfosa {
+  --anima-z-index: 1;
+  background-color: rgba(0,0,0,1.0);
+  border: 1px solid rgba(255,255,255,1.0);
+  height: 86px;
+  left: 824px;
   opacity: 1;
   position: absolute;
-  top: 911px;
-  width: 1440px;
+  top: 0px;
+  width: 616px;
 }
 .home .rectangle-3-C61RwL {
-  --anima-z-index: 1;
+  --anima-z-index: 0;
   background-color: rgba(255,255,255,1.0);
   border: 3px solid rgba(0,0,0,1.0);
   border-radius: 62px;
@@ -593,7 +604,7 @@
   width: 588px;
 }
 .home .rectangle-3-VMr6Om {
-  --anima-z-index: 17;
+  --anima-z-index: 13;
   background-color: rgba(255,255,255,1.0);
   border: 3px solid rgba(0,0,0,1.0);
   border-radius: 62px;
@@ -606,7 +617,7 @@
   width: 588px;
 }
 .home .rectangle-5-C61RwL {
-  --anima-z-index: 23;
+  --anima-z-index: 19;
   background-color: transparent;
   background-image: url(../img/rectangle-5@2x.svg);
   background-size: 100% 100%;
@@ -614,11 +625,32 @@
   left: 1047px;
   opacity: 1;
   position: absolute;
-  top: 1694px;
+  top: 1693px;
   width: 103px;
 }
+.home .rectangle-6-iPe1yZ {
+  --anima-z-index: 0;
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,1.0);
+  height: 239px;
+  left: -1px;
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  width: 1442px;
+}
+.home .rectangle-7-C61RwL {
+  --anima-z-index: 18;
+  background-color: rgba(255,255,255,1.0);
+  height: 2px;
+  left: 1014px;
+  opacity: 1;
+  position: absolute;
+  top: 1826px;
+  width: 135px;
+}
 .home .scroll-down-C61RwL {
-  --anima-z-index: 26;
+  --anima-z-index: 22;
   background-color: transparent;
   background-image: url(../img/scroll-down@2x.svg);
   background-size: 100% 100%;
@@ -644,19 +676,25 @@
 .home .span1-ynMSFp {
   font-family: 'Epilogue', Helvetica, Arial, serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.00px;
 }
 .home .span2-ynMSFp {
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.00px;
+}
+.home .span3-ynMSFp {
   font-family: 'Epilogue', Helvetica, Arial, serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.00px;
 }
-.home .span3-ynMSFp {
+.home .span4-ynMSFp {
   font-family: 'Epilogue', Helvetica, Arial, serif;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.00px;
@@ -697,8 +735,8 @@
   top: 120px;
   width: 142px;
 }
-.home .uniswap-4411-C61RwL {
-  --anima-z-index: 9;
+.home .uniswap-4411-KOsP6k {
+  --anima-z-index: 0;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(0,0,0,1.0);
@@ -707,12 +745,12 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 994px;
+  left: 28px;
   letter-spacing: 0.00px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 1331px;
+  top: 7px;
   width: 41px;
 }
 .home .vote-37128-WzCX2w {
@@ -734,7 +772,7 @@
   width: auto;
 }
 .home .x-currently-soon-37126-C61RwL {
-  --anima-z-index: 24;
+  --anima-z-index: 20;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(28,28,28,1.0);
@@ -745,85 +783,175 @@
   height: 176px;
   left: 309px;
   letter-spacing: 0.00px;
-  line-height: 18px;
+  line-height: 27px;
   opacity: 1;
   position: absolute;
-  text-align: justify;
-  top: 1670px;
+  text-align: left;
+  top: 1680px;
   width: 481px;
 }
-.home .x256x256-bl-02-layer-1-C61RwL {
-  --anima-z-index: 10;
+.home .x256x256-bl-02-layer-1-KOsP6k {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/256x256-black-1-0002-layer-1@2x.png);
   background-size: 100% 100%;
   height: 24px;
-  left: 966px;
+  left: -0px;
   opacity: 1;
   position: absolute;
-  top: 1324px;
+  top: -0px;
   width: 21px;
 }
-.home .x256x256-bl-gecko-logo-C61RwL {
-  --anima-z-index: 6;
+.home .x256x256-bl-gecko-logo-hvAGCq {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/256x256-black-1-0000-coingecko-logo@2x.png);
   background-size: 100% 100%;
   height: 20px;
-  left: 730px;
+  left: -0px;
   opacity: 1;
   position: absolute;
-  top: 1328px;
+  top: -0px;
   width: 20px;
 }
-.home .x256x256-bl-ogo-circle-C61RwL {
-  --anima-z-index: 8;
+.home .x256x256-bl-ogo-circle-zUixHA {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/256x256-black-1-0001-etherscan-logo-circle@2x.png);
   background-size: 100% 100%;
   height: 18px;
-  left: 849px;
+  left: -0px;
   opacity: 1;
   position: absolute;
-  top: 1328px;
+  top: -0px;
   width: 18px;
+}
+.karla-extra-bold-black-14px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-extra-bold-white-14px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-light-eerie-black-14px {
+  color: var(--eerie-black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --eerie-black: rgba(28,28,28,1.0);
+  --mist-gray: rgba(196,196,196,1.0);
+  --white: rgba(255,255,255,1.0);
 }
 /* screen - products */
 
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.border-class-2 {
+  border: 3px solid var(--black);
+}
+.epilogue-bold-black-20px {
+  color: var(--black);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.karla-extra-bold-black-14px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-extra-bold-white-14px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-light-eerie-black-14px {
+  color: var(--eerie-black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
 .products {
   background-color: rgba(0,0,0,1.0);
-  height: 1203px;
+  height: 1745px;
   opacity: 1;
   overflow: hidden;
   position: relative;
   width: 1440px;
+}
+.products .alerts-dis-pools-1609-C61RwL {
+  --anima-z-index: 23;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(196,196,196,1.0);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 355px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  opacity: 1;
+  position: absolute;
+  text-align: justify;
+  top: 1262px;
+  width: 160px;
 }
 .products .arrow-1-iPe1yZ {
   --anima-z-index: 6;
   background-color: transparent;
   background-image: url(../img/arrow-1@2x.svg);
   background-size: 100% 100%;
-  height: 0px;
-  left: 352px;
+  height: 9px;
+  left: 347px;
   opacity: 1;
   position: absolute;
-  top: 130px;
-  width: 9px;
+  top: 125px;
+  width: 1px;
 }
 .products .arrow-2-Ebfosa {
-  --anima-z-index: 6;
+  --anima-z-index: 5;
   background-color: transparent;
   background-image: url(../img/arrow-2@2x.svg);
   background-size: 100% 100%;
-  height: 0px;
-  left: 1181px;
+  height: 9px;
+  left: 1183px;
   opacity: 1;
   position: absolute;
-  top: 41px;
-  width: 12px;
+  top: 36px;
+  width: 8px;
 }
-.products .bgold-92242-C61RwL {
-  --anima-z-index: 26;
+.products .b-gold-C61RwL {
+  --anima-z-index: 14;
+  background-color: transparent;
+  height: 74px;
+  left: 824px;
+  opacity: 1;
+  position: absolute;
+  top: 487px;
+  width: 294px;
+}
+.products .bgold-92242-LiMbeo {
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -832,16 +960,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 824px;
+  left: 0px;
   letter-spacing: 3.22px;
   opacity: 1;
   position: absolute;
   text-align: right;
-  top: 431px;
+  top: 7px;
   width: 212px;
 }
-.products .binary-options-95177-C61RwL {
-  --anima-z-index: 22;
+.products .binary-options-95177-PFs4oT {
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -850,16 +978,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 423px;
+  left: 84px;
   letter-spacing: 2.64px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 682px;
+  top: 38px;
   width: 212px;
 }
 .products .build-dao--ation-5917-C61RwL {
-  --anima-z-index: 32;
+  --anima-z-index: 18;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -874,7 +1002,7 @@
   width: 665px;
 }
 .products .build-fina-munity-831-C61RwL {
-  --anima-z-index: 33;
+  --anima-z-index: 20;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -883,22 +1011,23 @@
   height: auto;
   left: 142px;
   letter-spacing: 0.00px;
+  line-height: 24px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 274px;
+  top: 289px;
   width: 1074px;
 }
-.products .build-prod-0-invert-1-C61RwL {
-  --anima-z-index: 21;
+.products .build-prod-0-invert-1-PFs4oT {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/build-products-constellation-0010-invert-1@2x.png);
   background-size: 100% 100%;
-  height: 67px;
-  left: 339px;
+  height: 68px;
+  left: 0px;
   opacity: 1;
   position: absolute;
-  top: 644px;
+  top: -0px;
   width: 67px;
 }
 .products .build-prod-e-1-copy-2-C61RwL {
@@ -906,11 +1035,11 @@
   background-color: transparent;
   background-image: url(../img/build-products-constellation-0000s-0000-rectangle-1-copy-2@2x.png);
   background-size: 100% 100%;
-  height: 133px;
+  height: 134px;
   left: 718px;
   opacity: 1;
   position: absolute;
-  top: 562px;
+  top: 625px;
   width: 303px;
 }
 .products .build-prod-e-1-copy-2-VMr6Om {
@@ -922,7 +1051,7 @@
   left: 425px;
   opacity: 1;
   position: absolute;
-  top: 562px;
+  top: 625px;
   width: 274px;
 }
 .products .build-prod-ectangle-1-C61RwL {
@@ -934,7 +1063,7 @@
   left: 718px;
   opacity: 1;
   position: absolute;
-  top: 459px;
+  top: 522px;
   width: 318px;
 }
 .products .build-prod-ellation-1-C61RwL {
@@ -942,23 +1071,23 @@
   background-color: transparent;
   background-image: url(../img/build-products-constellation-0016-build-lego-constellation-1@2x.png);
   background-size: 100% 100%;
-  height: 79px;
+  height: 80px;
   left: 643px;
   opacity: 1;
   position: absolute;
-  top: 519px;
+  top: 582px;
   width: 145px;
 }
-.products .build-prod-etric-logo-C61RwL {
-  --anima-z-index: 17;
+.products .build-prod-etric-logo-0YAJyy {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/build-products-constellation-0014-metric-logo@2x.png);
   background-size: 100% 100%;
-  height: 63px;
-  left: 344px;
+  height: 64px;
+  left: 1px;
   opacity: 1;
   position: absolute;
-  top: 445px;
+  top: 1px;
   width: 63px;
 }
 .products .build-prod-gle-1-copy-C61RwL {
@@ -970,42 +1099,20 @@
   left: 423px;
   opacity: 1;
   position: absolute;
-  top: 487px;
+  top: 550px;
   width: 278px;
 }
-.products .build-prod-llipse-1-1-C61RwL {
-  --anima-z-index: 4;
-  background-color: transparent;
-  background-image: url(../img/build-products-constellation-0015-ellipse-1-1@1x.png);
-  background-size: 100% 100%;
-  height: 374px;
-  left: 275px;
-  opacity: 1;
-  position: absolute;
-  top: 396px;
-  width: 879px;
-}
-.products .build-prod-old-symbol-C61RwL {
-  --anima-z-index: 25;
+.products .build-prod-old-symbol-LiMbeo {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/build-products-constellation-0001-bgold-symbol@2x.png);
   background-size: 100% 100%;
-  height: 41px;
-  left: 1075px;
+  height: 42px;
+  left: 251px;
   opacity: 1;
   position: absolute;
-  top: 436px;
+  top: 12px;
   width: 23px;
-}
-.products .button-normal-Hj0Fl1 {
-  --anima-z-index: 4;
-  background-color: rgba(1,1,1,1.0);
-  height: 33px;
-  left: 40px;
-  opacity: 1;
-  position: absolute;
-  top: 145px;
-  width: 196px;
 }
 .products .buy-build-i44173872-iPe1yZ {
   --anima-z-index: 3;
@@ -1025,8 +1132,68 @@
   top: 120px;
   width: 142px;
 }
+.products .by-0xdev-16010-C61RwL {
+  --anima-z-index: 24;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(196,196,196,1.0);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 356px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  opacity: 1;
+  position: absolute;
+  text-align: justify;
+  top: 1231px;
+  white-space: nowrap;
+  width: 160px;
+}
+.products .by-0xdev-16020-C61RwL {
+  --anima-z-index: 28;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(196,196,196,1.0);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 642px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  opacity: 1;
+  position: absolute;
+  text-align: justify;
+  top: 1231px;
+  white-space: nowrap;
+  width: 160px;
+}
+.products .by-vfat-16025-C61RwL {
+  --anima-z-index: 32;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(196,196,196,1.0);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 928px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  opacity: 1;
+  position: absolute;
+  text-align: justify;
+  top: 1231px;
+  white-space: nowrap;
+  width: 160px;
+}
 .products .click-on-a-plore-5918-C61RwL {
-  --anima-z-index: 29;
+  --anima-z-index: 15;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1040,11 +1207,29 @@
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 339px;
+  top: 373px;
   width: 222px;
 }
-.products .dex-agg-li-ders-92236-C61RwL {
+.products .community--ools-16026-C61RwL {
   --anima-z-index: 19;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1.0);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 389px;
+  letter-spacing: 0.00px;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 1030px;
+  width: 665px;
+}
+.products .dex-agg-li-ders-92236-0YAJyy {
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1053,34 +1238,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 424px;
+  left: 81px;
   letter-spacing: 2.64px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 498px;
+  top: 54px;
   width: 212px;
 }
-.products .dex-aggreg-r-i6121613-Hj0Fl1 {
-  --anima-z-index: 3;
-  background-color: transparent;
-  border: 1px solid transparent;
-  color: rgba(28,28,28,1.0);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  height: auto;
-  left: 40px;
-  letter-spacing: 0.00px;
-  opacity: 1;
-  position: absolute;
-  text-align: left;
-  top: 78px;
-  width: 219px;
-}
 .products .documentat-n-i4416386-Ebfosa {
-  --anima-z-index: 4;
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1098,68 +1265,99 @@
   top: 29px;
   width: auto;
 }
-.products .ellipse-10-Hj0Fl1 {
-  --anima-z-index: 1;
+.products .dsdtools-16018-C61RwL {
+  --anima-z-index: 26;
   background-color: transparent;
-  background-image: url(../img/ellipse-10@2x.svg);
-  background-size: 100% 100%;
-  height: 12px;
-  left: 40px;
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1.0);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 641px;
+  letter-spacing: 0.00px;
   opacity: 1;
   position: absolute;
-  top: 26px;
-  width: 12px;
+  text-align: left;
+  text-decoration: underline;
+  top: 1207px;
+  width: 160px;
 }
-.products .ellipse-11-C61RwL {
-  --anima-z-index: 16;
+.products .ellipse-11-0YAJyy {
+  --anima-z-index: 0;
   background-color: transparent;
   background-image: url(../img/ellipse-11@2x.svg);
   background-size: 100% 100%;
   height: 65px;
-  left: 343px;
+  left: 0px;
   opacity: 1;
   position: absolute;
-  top: 444px;
+  top: 0px;
   width: 65px;
 }
-.products .ellipse-12-C61RwL {
-  --anima-z-index: 20;
+.products .ellipse-12-PFs4oT {
+  --anima-z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/ellipse-12@2x.svg);
+  background-size: 100% 100%;
+  height: 65px;
+  left: 1px;
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  width: 65px;
+}
+.products .ellipse-13-LiMbeo {
+  --anima-z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/ellipse-13@2x.svg);
+  background-size: 100% 100%;
+  height: 65px;
+  left: 229px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 65px;
+}
+.products .ellipse-14-PICcqq {
+  --anima-z-index: 0;
   background-color: transparent;
   background-image: url(../img/ellipse-14@2x.svg);
   background-size: 100% 100%;
   height: 65px;
-  left: 340px;
+  left: 73px;
   opacity: 1;
   position: absolute;
-  top: 645px;
+  top: 0px;
   width: 65px;
 }
-.products .ellipse-13-C61RwL {
-  --anima-z-index: 24;
+.products .ellipse-14-rOXxgA {
+  --anima-z-index: 0;
   background-color: transparent;
   background-image: url(../img/ellipse-14@2x.svg);
   background-size: 100% 100%;
   height: 65px;
-  left: 1053px;
+  left: 234px;
   opacity: 1;
   position: absolute;
-  top: 424px;
+  top: 0px;
   width: 65px;
 }
-.products .ellipse-14-C61RwL {
-  --anima-z-index: 10;
+.products .ellipse-15-C61RwL {
+  --anima-z-index: 4;
   background-color: transparent;
-  background-image: url(../img/ellipse-14@2x.svg);
+  background-image: url(../img/ellipse-15@1x.svg);
   background-size: 100% 100%;
-  height: 65px;
-  left: 684px;
+  height: 374px;
+  left: 275px;
   opacity: 1;
   position: absolute;
-  top: 741px;
-  width: 65px;
+  top: 459px;
+  width: 879px;
 }
 .products .ellipse-9-C61RwL {
-  --anima-z-index: 30;
+  --anima-z-index: 16;
   background-color: transparent;
   background-image: url(../img/ellipse-9@2x.svg);
   background-size: 100% 100%;
@@ -1167,31 +1365,8 @@
   left: 142px;
   opacity: 1;
   position: absolute;
-  top: 344px;
+  top: 378px;
   width: 9px;
-}
-.products .explore-products-C61RwL {
-  --anima-z-index: 28;
-  background-color: transparent;
-  height: 203px;
-  left: 1030px;
-  opacity: 1;
-  overflow: hidden;
-  position: absolute;
-  top: 639px;
-  width: 297px;
-}
-.products .explore-skinVV {
-  --anima-z-index: 0;
-  background-color: rgba(255,255,255,1.0);
-  border: 3px solid rgba(0,0,0,1.0);
-  border-radius: 62px;
-  height: 203px;
-  left: 0px;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  width: 297px;
 }
 .products .footer-C61RwL {
   --anima-z-index: 1;
@@ -1200,7 +1375,7 @@
   left: 0px;
   opacity: 1;
   position: absolute;
-  top: 950px;
+  top: 1488px;
   width: 1440px;
 }
 .products .get-in-tou--i44173871-iPe1yZ {
@@ -1222,7 +1397,7 @@
   width: 142px;
 }
 .products .get-in-tou-h-i4416387-Ebfosa {
-  --anima-z-index: 5;
+  --anima-z-index: 4;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1258,8 +1433,8 @@
   top: 120px;
   width: 142px;
 }
-.products .gold-pegge-coin-92243-C61RwL {
-  --anima-z-index: 27;
+.products .gold-pegge-coin-92243-LiMbeo {
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1268,12 +1443,12 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 824px;
+  left: 0px;
   letter-spacing: 2.64px;
   opacity: 1;
   position: absolute;
   text-align: right;
-  top: 469px;
+  top: 45px;
   width: 212px;
 }
 .products .governance--i44173874-iPe1yZ {
@@ -1294,8 +1469,18 @@
   top: 120px;
   width: 142px;
 }
-.products .hype-protocol-92240-C61RwL {
-  --anima-z-index: 15;
+.products .hype-C61RwL {
+  --anima-z-index: 11;
+  background-color: transparent;
+  height: 65px;
+  left: 807px;
+  opacity: 1;
+  position: absolute;
+  top: 726px;
+  width: 299px;
+}
+.products .hype-protocol-92240-rOXxgA {
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1304,16 +1489,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 807px;
+  left: 0px;
   letter-spacing: 3.22px;
   opacity: 1;
   position: absolute;
   text-align: right;
-  top: 671px;
+  top: 8px;
   width: 212px;
 }
 .products .i-602-C61RwL {
-  --anima-z-index: 31;
+  --anima-z-index: 17;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(0,0,0,1.0);
@@ -1327,11 +1512,11 @@
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 344px;
+  top: 378px;
   width: 5px;
 }
 .products .image-1-Ebfosa {
-  --anima-z-index: 7;
+  --anima-z-index: 6;
   background-color: transparent;
   background-image: url(../img/image-1@2x.jpg);
   background-size: 100% 100%;
@@ -1390,16 +1575,16 @@
   top: 153px;
   width: 24px;
 }
-.products .image-4-C61RwL {
-  --anima-z-index: 11;
+.products .image-4-PICcqq {
+  --anima-z-index: 1;
   background-color: transparent;
   background-image: url(../img/image-4@2x.jpg);
   background-size: 100% 100%;
-  height: 43px;
-  left: 694px;
+  height: 44px;
+  left: 83px;
   opacity: 1;
   position: absolute;
-  top: 753px;
+  top: 12px;
   width: 44px;
 }
 .products .image-6-iPe1yZ {
@@ -1438,53 +1623,36 @@
   top: 152px;
   width: 27px;
 }
-.products .line-1-Ebfosa {
-  --anima-z-index: 1;
+.products .info-alter-ming-16024-C61RwL {
+  --anima-z-index: 31;
   background-color: transparent;
-  background-image: url(../img/line-4@1x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 0px;
+  border: 1px solid transparent;
+  color: rgba(196,196,196,1.0);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 927px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
   opacity: 1;
   position: absolute;
-  top: 86px;
-  width: 1440px;
-}
-.products .line-2-Ebfosa {
-  --anima-z-index: 2;
-  background-color: transparent;
-  background-image: url(../img/line-2@2x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 781px;
-  opacity: 1;
-  position: absolute;
-  top: 43px;
-  width: 86px;
-}
-.products .line-4-iPe1yZ {
-  --anima-z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/line-4@1x.svg);
-  background-size: 100% 100%;
-  height: 0px;
-  left: 0px;
-  opacity: 1;
-  position: absolute;
-  top: 20px;
-  width: 1440px;
+  text-align: left;
+  top: 1262px;
+  width: 167px;
 }
 .products .line-5-C61RwL {
   --anima-z-index: 2;
   background-color: transparent;
   background-image: url(../img/line-5@2x.svg);
   background-size: 100% 100%;
-  height: 0px;
-  left: 634px;
+  height: 164px;
+  left: 716px;
   opacity: 1;
   position: absolute;
-  top: 668px;
-  width: 164px;
+  top: 649px;
+  width: 0px;
 }
 .products .line-6-C61RwL {
   --anima-z-index: 3;
@@ -1495,11 +1663,11 @@
   left: 648px;
   opacity: 1;
   position: absolute;
-  top: 849px;
+  top: 912px;
   width: 140px;
 }
-.products .liquidity--king-95178-C61RwL {
-  --anima-z-index: 14;
+.products .liquidity--king-95178-rOXxgA {
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1508,34 +1676,26 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 824px;
+  left: 17px;
   letter-spacing: 2.64px;
   opacity: 1;
   position: absolute;
   text-align: right;
-  top: 701px;
+  top: 38px;
   width: 195px;
 }
-.products .live-i6121618-Hj0Fl1 {
-  --anima-z-index: 0;
+.products .metric-C61RwL {
+  --anima-z-index: 12;
   background-color: transparent;
-  border: 1px solid transparent;
-  color: rgba(0,0,0,1.0);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 800;
-  height: auto;
-  left: 57px;
-  letter-spacing: 0.00px;
+  height: 71px;
+  left: 343px;
   opacity: 1;
   position: absolute;
-  text-align: left;
-  top: 24px;
-  width: auto;
+  top: 507px;
+  width: 297px;
 }
-.products .metric-exc-ange-92227-C61RwL {
-  --anima-z-index: 18;
+.products .metric-exc-ange-92227-0YAJyy {
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1544,34 +1704,16 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 424px;
+  left: 81px;
   letter-spacing: 3.22px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 461px;
+  top: 17px;
   width: 212px;
 }
-.products .metric-i6121612-Hj0Fl1 {
+.products .money-market-962-PICcqq {
   --anima-z-index: 2;
-  background-color: transparent;
-  border: 1px solid transparent;
-  color: rgba(0,0,0,1.0);
-  font-family: 'Epilogue', Helvetica, Arial, serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  height: auto;
-  left: 40px;
-  letter-spacing: 0.00px;
-  opacity: 1;
-  position: absolute;
-  text-align: left;
-  top: 49px;
-  width: auto;
-}
-.products .money-market-962-C61RwL {
-  --anima-z-index: 12;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1580,12 +1722,12 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 611px;
+  left: 0px;
   letter-spacing: 2.64px;
   opacity: 1;
   position: absolute;
   text-align: center;
-  top: 854px;
+  top: 113px;
   width: 212px;
 }
 .products .nav-C61RwL {
@@ -1594,12 +1736,12 @@
   height: 86px;
   left: 0px;
   opacity: 1;
-  position: absolute;
+  position: fixed;
   top: 0px;
   width: 1440px;
 }
 .products .products-i4416385-Ebfosa {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1620,12 +1762,71 @@
 .products .rectangle-1-Ebfosa {
   --anima-z-index: 0;
   background-color: rgba(0,0,0,1.0);
+  border: 1px solid rgba(255,255,255,1.0);
   height: 86px;
   left: 0px;
   opacity: 1;
   position: absolute;
   top: 0px;
   width: 1440px;
+}
+.products .rectangle-2-Ebfosa {
+  --anima-z-index: 1;
+  background-color: rgba(0,0,0,1.0);
+  border: 1px solid rgba(255,255,255,1.0);
+  height: 86px;
+  left: 824px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 616px;
+}
+.products .rectangle-6-iPe1yZ {
+  --anima-z-index: 0;
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,1.0);
+  height: 239px;
+  left: -1px;
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  width: 1442px;
+}
+.products .rectangle-8-C61RwL {
+  --anima-z-index: 21;
+  background-color: transparent;
+  border: 1px solid rgba(246,246,246,1.0);
+  border-radius: 62px;
+  height: 161px;
+  left: 321px;
+  opacity: 1;
+  position: absolute;
+  top: 1173px;
+  width: 226px;
+}
+.products .rectangle-8-VMr6Om {
+  --anima-z-index: 25;
+  background-color: transparent;
+  border: 1px solid rgba(246,246,246,1.0);
+  border-radius: 62px;
+  height: 161px;
+  left: 607px;
+  opacity: 1;
+  position: absolute;
+  top: 1173px;
+  width: 226px;
+}
+.products .rectangle-8-mzXdH9 {
+  --anima-z-index: 29;
+  background-color: transparent;
+  border: 1px solid rgba(246,246,246,1.0);
+  border-radius: 62px;
+  height: 161px;
+  left: 893px;
+  opacity: 1;
+  position: absolute;
+  top: 1173px;
+  width: 226px;
 }
 .products .small-piece-1-iPe1yZ {
   --anima-z-index: 1;
@@ -1685,8 +1886,56 @@
   top: 120px;
   width: 142px;
 }
-.products .updown-finance-92238-C61RwL {
-  --anima-z-index: 23;
+.products .stats-info-llar-16019-C61RwL {
+  --anima-z-index: 27;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(196,196,196,1.0);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 641px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 1262px;
+  width: 167px;
+}
+.products .token-scanxyz-1608-C61RwL {
+  --anima-z-index: 22;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1.0);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 355px;
+  letter-spacing: 0.00px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 1207px;
+  width: 160px;
+}
+.products .updown-C61RwL {
+  --anima-z-index: 13;
+  background-color: transparent;
+  height: 67px;
+  left: 339px;
+  opacity: 1;
+  position: absolute;
+  top: 707px;
+  width: 301px;
+}
+.products .updown-finance-92238-PFs4oT {
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1695,16 +1944,47 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 424px;
+  left: 85px;
   letter-spacing: 3.22px;
   opacity: 1;
   position: absolute;
   text-align: left;
-  top: 646px;
+  top: 2px;
   width: 212px;
 }
-.products .vortex-961-C61RwL {
-  --anima-z-index: 13;
+.products .vector-rOXxgA {
+  --anima-z-index: 1;
+  background-color: transparent;
+  background-image: url(../img/vector@2x.svg);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 255px;
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  width: 27px;
+}
+.products .vfattools-16023-C61RwL {
+  --anima-z-index: 30;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: rgba(255,255,255,1.0);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 927px;
+  letter-spacing: 0.00px;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  text-decoration: underline;
+  top: 1207px;
+  width: 160px;
+}
+.products .vortex-961-PICcqq {
+  --anima-z-index: 3;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1713,29 +1993,27 @@
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 611px;
+  left: 0px;
   letter-spacing: 3.22px;
   opacity: 1;
   position: absolute;
   text-align: center;
-  top: 825px;
+  top: 84px;
   width: 212px;
 }
-.products .vote-i6121441838139-HIh2gi {
-  --anima-z-index: 0;
+.products .vortex-C61RwL {
+  --anima-z-index: 10;
   background-color: transparent;
-  border: 1px solid transparent;
-  color: rgba(255,255,255,1.0);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  height: auto;
-  left: 38px;
-  letter-spacing: 0.00px;
+  height: 130px;
+  left: 611px;
   opacity: 1;
   position: absolute;
-  text-align: center;
-  top: 7px;
-  width: auto;
+  top: 804px;
+  width: 216px;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --eerie-black: rgba(28,28,28,1.0);
+  --mist-gray: rgba(196,196,196,1.0);
+  --white: rgba(255,255,255,1.0);
 }

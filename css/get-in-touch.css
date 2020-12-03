@@ -1,10 +1,17 @@
 /* screen - get-in-touch */
 
-#overlay-get-in-touch {
-  background-color: transparent;
+.border-class-1 {
+  border: 1px solid transparent;
 }
-.anima-overlay .get-in-touch {
-  background-color: #00000000;
+.border-class-2 {
+  border: 3px solid var(--black);
+}
+.epilogue-bold-black-20px {
+  color: var(--black);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
 }
 .get-in-touch {
   background-color: transparent;
@@ -23,8 +30,7 @@
 }
 .get-in-touch .get-in-touch-6381-SbihJB {
   background-color: transparent;
-  border: 1px solid transparent;
-  color: rgba(0,0,0,1.0);
+  color: var(--black);
   font-family: 'Karla', Helvetica, Arial, serif;
   font-size: 16px;
   font-style: normal;
@@ -39,8 +45,7 @@
   width: 142px;
 }
 .get-in-touch .get-in-touch-C61RwL {
-  background-color: rgba(255,255,255,1.0);
-  border: 3px solid rgba(0,0,0,1.0);
+  background-color: var(--white);
   border-radius: 62px;
   height: 203px;
   left: 0px;
@@ -254,4 +259,31 @@
   position: absolute;
   top: 127px;
   width: 33px;
+}
+.karla-extra-bold-black-14px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-extra-bold-white-14px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+}
+.karla-light-eerie-black-14px {
+  color: var(--eerie-black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+:root {
+  --black: rgba(0,0,0,1.0);
+  --eerie-black: rgba(28,28,28,1.0);
+  --mist-gray: rgba(196,196,196,1.0);
+  --white: rgba(255,255,255,1.0);
 }
