@@ -15,10 +15,13 @@
 }
 .explore-metric {
   background-color: transparent;
-  height: 184px;
+  height: 100vh;
+  margin: 0px;
+  min-height: 184px;
+  min-width: 270px;
   overflow: hidden;
   position: relative;
-  width: 270px;
+  width: 100%;
 }
 .explore-metric .button-normal-pRIhoq {
   background-color: var(--mist-gray);
@@ -77,13 +80,13 @@
 }
 .explore-metric .vote-i441838139-UVqNxU {
   background-color: transparent;
-  height: auto;
-  left: 38px;
+  height: 53.33%;
+  left: 19.29%;
   letter-spacing: 0.00px;
   position: absolute;
   text-align: center;
-  top: 7px;
-  width: auto;
+  top: 23.33%;
+  width: 62.44%;
 }
 .karla-extra-bold-black-14px {
   color: var(--black);

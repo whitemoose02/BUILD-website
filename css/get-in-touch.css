@@ -15,18 +15,21 @@
 }
 .get-in-touch {
   background-color: transparent;
-  height: 203px;
+  height: 100vh;
+  margin: 0px;
+  min-height: 203px;
+  min-width: 297px;
   overflow: hidden;
   position: relative;
-  width: 297px;
+  width: 100%;
 }
 .get-in-touch .arrow-1-SbihJB {
   background-color: transparent;
   height: 0px;
-  left: 149px;
+  left: 50.34%;
   position: absolute;
-  top: 36px;
-  width: 9px;
+  top: 17.98%;
+  width: 3.03%;
 }
 .get-in-touch .get-in-touch-6381-SbihJB {
   background-color: transparent;
@@ -35,14 +38,14 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  height: auto;
-  left: 40px;
+  height: 8.87%;
+  left: 13.47%;
   letter-spacing: 0.00px;
   position: absolute;
   text-align: left;
   text-decoration: underline;
-  top: 27px;
-  width: 142px;
+  top: 13.30%;
+  width: 47.81%;
 }
 .get-in-touch .get-in-touch-C61RwL {
   background-color: var(--white);
@@ -55,210 +58,210 @@
 }
 .get-in-touch .vector-1NPcdJ {
   background-color: transparent;
-  height: 33px;
-  left: 1px;
+  height: 100.00%;
+  left: 4.17%;
   position: absolute;
-  top: -0px;
-  width: 31px;
+  top: 0px;
+  width: 91.67%;
 }
 .get-in-touch .vector-9weVEC {
   background-color: transparent;
-  height: 5px;
-  left: 14px;
+  height: 14.39%;
+  left: 40.76%;
   position: absolute;
-  top: 7px;
-  width: 5px;
+  top: 20.42%;
+  width: 14.41%;
 }
 .get-in-touch .vector-CjHxHJ {
   background-color: transparent;
-  height: 32px;
+  height: 95.89%;
   left: 0px;
   position: absolute;
-  top: 1px;
-  width: 33px;
+  top: 2.02%;
+  width: 99.73%;
 }
 .get-in-touch .vector-EI2Re3 {
   background-color: transparent;
-  height: 20px;
-  left: 12px;
+  height: 59.28%;
+  left: 36.60%;
   position: absolute;
-  top: 12px;
-  width: 21px;
+  top: 36.59%;
+  width: 63.44%;
 }
 .get-in-touch .vector-FhtcM1 {
   background-color: transparent;
-  height: 1px;
-  left: 28px;
+  height: 0px;
+  left: 84.52%;
   position: absolute;
-  top: 14px;
-  width: 1px;
+  top: 40.60%;
+  width: 0px;
 }
 .get-in-touch .vector-HgT71v {
   background-color: transparent;
-  height: 10px;
+  height: 28.87%;
   left: 0px;
   position: absolute;
-  top: -0px;
-  width: 10px;
+  top: 0px;
+  width: 28.52%;
 }
 .get-in-touch .vector-J3RjSP {
   background-color: transparent;
-  height: 5px;
-  left: 16px;
+  height: 14.39%;
+  left: 48.91%;
   position: absolute;
-  top: 18px;
-  width: 5px;
+  top: 52.98%;
+  width: 14.40%;
 }
 .get-in-touch .vector-NHgmVN {
   background-color: transparent;
-  height: 16px;
-  left: 5px;
+  height: 47.57%;
+  left: 16.36%;
   position: absolute;
-  top: 7px;
-  width: 22px;
+  top: 20.24%;
+  width: 67.27%;
 }
 .get-in-touch .vector-VSTwiT {
   background-color: transparent;
-  height: 25px;
-  left: -0px;
+  height: 74.98%;
+  left: 0px;
   position: absolute;
-  top: 4px;
-  width: 33px;
+  top: 12.69%;
+  width: 100.01%;
 }
 .get-in-touch .vector-bRXrfX {
   background-color: transparent;
-  height: 27px;
-  left: 0px;
+  height: 81.24%;
+  left: 0.52%;
   position: absolute;
-  top: 3px;
-  width: 33px;
+  top: 9.38%;
+  width: 98.96%;
 }
 .get-in-touch .vector-cPct9I {
   background-color: transparent;
-  height: 24px;
-  left: -0px;
+  height: 71.39%;
+  left: 0px;
   position: absolute;
-  top: 1px;
-  width: 25px;
+  top: 4.12%;
+  width: 74.89%;
 }
 .get-in-touch .vector-dpdt9w {
   background-color: transparent;
-  height: 5px;
-  left: 18px;
+  height: 14.38%;
+  left: 53.01%;
   position: absolute;
-  top: 12px;
-  width: 5px;
+  top: 36.70%;
+  width: 14.32%;
 }
 .get-in-touch .vector-exNelG {
   background-color: transparent;
-  height: 5px;
-  left: 5px;
+  height: 14.39%;
+  left: 16.30%;
   position: absolute;
-  top: 7px;
-  width: 5px;
+  top: 20.42%;
+  width: 14.40%;
 }
 .get-in-touch .vector-kSxQno {
   background-color: transparent;
-  height: 23px;
-  left: 0px;
+  height: 68.96%;
+  left: 1.35%;
   position: absolute;
-  top: 10px;
-  width: 9px;
+  top: 31.04%;
+  width: 26.09%;
 }
 .get-in-touch .vector-pW9gOc {
   background-color: transparent;
-  height: 29px;
+  height: 87.51%;
   left: 0px;
   position: absolute;
-  top: 1px;
-  width: 33px;
+  top: 4.16%;
+  width: 100.00%;
 }
 .get-in-touch .vector-sPLS6v {
   background-color: transparent;
-  height: 23px;
-  left: 11px;
+  height: 70.41%;
+  left: 32.96%;
   position: absolute;
-  top: 10px;
-  width: 22px;
+  top: 29.59%;
+  width: 67.14%;
 }
 .get-in-touch .vector-tV5ytr {
   background-color: transparent;
-  height: 5px;
-  left: 24px;
+  height: 14.39%;
+  left: 73.37%;
   position: absolute;
-  top: 18px;
-  width: 5px;
+  top: 52.98%;
+  width: 14.41%;
 }
 .get-in-touch .vector-xkM0fX {
   background-color: transparent;
-  height: 5px;
-  left: 11px;
+  height: 14.40%;
+  left: 32.69%;
   position: absolute;
-  top: 12px;
-  width: 5px;
+  top: 36.68%;
+  width: 14.29%;
 }
 .get-in-touch .x016-discord-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 230px;
+  height: 16.42%;
+  left: 77.44%;
   overflow: hidden;
   position: absolute;
-  top: 70px;
-  width: 33px;
+  top: 34.48%;
+  width: 11.22%;
 }
 .get-in-touch .x032-github-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 40px;
+  height: 16.42%;
+  left: 13.47%;
   overflow: hidden;
   position: absolute;
-  top: 70px;
-  width: 33px;
+  top: 34.48%;
+  width: 11.22%;
 }
 .get-in-touch .x052-linkedin-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 103px;
+  height: 16.42%;
+  left: 34.79%;
   overflow: hidden;
   position: absolute;
-  top: 70px;
-  width: 33px;
+  top: 34.48%;
+  width: 11.22%;
 }
 .get-in-touch .x054-medium-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 167px;
+  height: 16.42%;
+  left: 56.12%;
   overflow: hidden;
   position: absolute;
-  top: 70px;
-  width: 33px;
+  top: 34.48%;
+  width: 11.22%;
 }
 .get-in-touch .x089-telegram-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 40px;
+  height: 16.42%;
+  left: 13.47%;
   overflow: hidden;
   position: absolute;
-  top: 127px;
-  width: 33px;
+  top: 62.40%;
+  width: 11.22%;
 }
 .get-in-touch .x096-twitter-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 103px;
+  height: 16.42%;
+  left: 34.79%;
   overflow: hidden;
   position: absolute;
-  top: 127px;
-  width: 33px;
+  top: 62.40%;
+  width: 11.22%;
 }
 .get-in-touch .x108-wechat-1-SbihJB {
   background-color: transparent;
-  height: 33px;
-  left: 167px;
+  height: 16.42%;
+  left: 56.12%;
   overflow: hidden;
   position: absolute;
-  top: 127px;
-  width: 33px;
+  top: 62.40%;
+  width: 11.22%;
 }
 .karla-extra-bold-black-14px {
   color: var(--black);
