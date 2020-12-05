@@ -1,5 +1,10 @@
 /* screen - home */
 
+.anima-animate-enter {
+  animation: anima-animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;transform: translate(-25px, 0);
+}
 .anima-animate-enter1 {
   animation: anima-animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
   display: block;
@@ -7,11 +12,6 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .anima-animate-enter2 {
   animation: anima-animate-enter2-frames 0.20s ease-in-out 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: translate(-25px, 0);
-}
-.anima-animate-enter3 {
-  animation: anima-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
   display: block;
 opacity: 0;transform: translate(0, 25px);
 }
@@ -149,11 +149,6 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .home .coin-gecko-449-hvAGCq {
   background-color: transparent;
-  color: var(--black);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 8px;
-  font-style: normal;
-  font-weight: 700;
   height: auto;
   left: 25px;
   letter-spacing: 0.00px;
@@ -175,11 +170,6 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .home .etherscan-4410-zUixHA {
   background-color: transparent;
-  color: var(--black);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 8px;
-  font-style: normal;
-  font-weight: 700;
   height: auto;
   left: 26px;
   letter-spacing: 0.00px;
@@ -502,11 +492,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .home .uniswap-4411-KOsP6k {
   background-color: transparent;
-  color: var(--black);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 8px;
-  font-style: normal;
-  font-weight: 700;
   height: auto;
   left: 28px;
   letter-spacing: 0.00px;
@@ -578,6 +563,13 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 0px;
   width: 18px;
 }
+.karla-bold-black-8px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+}
 .karla-bold-white-12px {
   color: var(--white);
   font-family: 'Karla', Helvetica, Arial, serif;
@@ -613,13 +605,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   font-style: normal;
   font-weight: 300;
 }
-.karla-normal-mist-gray-18px {
-  color: var(--mist-gray);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-}
 .robotomono-bold-white-14px {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
@@ -635,17 +620,17 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);
 }
+@keyframes anima-animate-enter-frames {
+
+from{opacity: 0;transform: translate(-25px, 0);}
+to{opacity: 1;transform: translate(0,0);}
+}
 @keyframes anima-animate-enter1-frames {
 
 from{opacity: 0;transform: translate(-25px, 0);}
 to{opacity: 1;transform: translate(0,0);}
 }
 @keyframes anima-animate-enter2-frames {
-
-from{opacity: 0;transform: translate(-25px, 0);}
-to{opacity: 1;transform: translate(0,0);}
-}
-@keyframes anima-animate-enter3-frames {
 
 from{opacity: 0;transform: translate(0, 25px);}
 to{opacity: 1;transform: translate(0,0);}

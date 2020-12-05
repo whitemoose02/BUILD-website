@@ -140,6 +140,13 @@ transform: translate(0, -5px);
   top: 31.03%;
   width: 34.48%;
 }
+.karla-bold-black-8px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+}
 .karla-bold-white-12px {
   color: var(--white);
   font-family: 'Karla', Helvetica, Arial, serif;
@@ -174,13 +181,6 @@ transform: translate(0, -5px);
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-}
-.karla-normal-mist-gray-18px {
-  color: var(--mist-gray);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
 }
 .robotomono-bold-white-14px {
   color: var(--white);

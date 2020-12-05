@@ -1,7 +1,7 @@
 /* screen - products */
 
-.anima-animate-enter {
-  animation: anima-animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+.anima-animate-enter3 {
+  animation: anima-animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
   display: block;
 opacity: 0;transform: translate(-25px, 0);
 }
@@ -34,6 +34,13 @@ opacity: 0;transform: translate(-25px, 0);
   font-size: 12px;
   font-style: normal;
   font-weight: 800;
+}
+.karla-bold-black-8px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
 }
 .karla-bold-white-12px {
   color: var(--white);
@@ -70,13 +77,6 @@ opacity: 0;transform: translate(-25px, 0);
   font-style: normal;
   font-weight: 300;
 }
-.karla-normal-mist-gray-18px {
-  color: var(--mist-gray);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-}
 .products {
   background-color: var(--black);
   height: 100vh;
@@ -89,6 +89,11 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .products .alerts-dis-pools-1609-C61RwL {
   background-color: transparent;
+  color: var(--mist-gray);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 355px;
   letter-spacing: 0.00px;
@@ -521,6 +526,11 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .products .info-alter-ming-16024-C61RwL {
   background-color: transparent;
+  color: var(--mist-gray);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 927px;
   letter-spacing: 0.00px;
@@ -647,7 +657,9 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .products .span1-H7zz3N {
   color: rgba(255,255,255,1.0);
-  font-family: "Epilogue-Medium", Helvetica, Arial, serif;
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
 }
 .products .span1-zttURh {
   color: rgba(255,255,255,1.0);
@@ -672,7 +684,9 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .products .span3-H7zz3N {
   color: rgba(255,255,255,1.0);
-  font-family: "Epilogue-Medium", Helvetica, Arial, serif;
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 500;
 }
 .products .stake-buil--i44173873-iPe1yZ {
   background-color: transparent;
@@ -686,6 +700,11 @@ opacity: 0;transform: translate(-25px, 0);
 }
 .products .stats-info-llar-16019-C61RwL {
   background-color: transparent;
+  color: var(--mist-gray);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 641px;
   letter-spacing: 0.00px;
@@ -768,7 +787,7 @@ opacity: 0;transform: translate(-25px, 0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);
 }
-@keyframes anima-animate-enter-frames {
+@keyframes anima-animate-enter3-frames {
 
 from{opacity: 0;transform: translate(-25px, 0);}
 to{opacity: 1;transform: translate(0,0);}
