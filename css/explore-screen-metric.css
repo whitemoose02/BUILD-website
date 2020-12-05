@@ -58,11 +58,11 @@ transform: translate(0, -5px);
   background-color: transparent;
   background-image: url(../img/ellipse-16@2x.svg);
   background-size: 100% 100%;
-  height: 29px;
-  left: calc(50.00% - 150px);
+  height: 3.22%;
+  left: 39.58%;
   position: absolute;
-  top: calc(50.00% + 50px);
-  width: 29px;
+  top: 55.49%;
+  width: 2.01%;
 }
 .explore-screen-metric .dex-aggreg-i177191613-Le6lzv {
   background-color: transparent;
@@ -93,12 +93,12 @@ transform: translate(0, -5px);
 }
 .explore-screen-metric .explore-metric-C61RwL {
   background-color: transparent;
-  height: 184px;
-  left: calc(50.00% - 384px);
+  height: 20.42%;
+  left: 23.33%;
   overflow: hidden;
   position: fixed;
-  top: calc(50.00% + 46px);
-  width: 270px;
+  top: 55.16%;
+  width: 18.75%;
 }
 .explore-screen-metric .live-i177191618-Le6lzv {
   background-color: transparent;
@@ -140,13 +140,6 @@ transform: translate(0, -5px);
   top: 31.03%;
   width: 34.48%;
 }
-.karla-bold-black-8px {
-  color: var(--black);
-  font-family: 'Karla', Helvetica, Arial, serif;
-  font-size: 8px;
-  font-style: normal;
-  font-weight: 700;
-}
 .karla-bold-white-12px {
   color: var(--white);
   font-family: 'Karla', Helvetica, Arial, serif;
@@ -181,6 +174,13 @@ transform: translate(0, -5px);
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
+}
+.karla-normal-mist-gray-18px {
+  color: var(--mist-gray);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }
 .robotomono-bold-white-14px {
   color: var(--white);
