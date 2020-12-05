@@ -1,4 +1,4 @@
-/* screen - explore-updown */
+/* screen - explore-screen-vortex */
 
 .border-class-1 {
   border: 1px solid transparent;
@@ -13,35 +13,42 @@
   font-style: normal;
   font-weight: 700;
 }
-.explore-updown {
-  background-color: transparent;
+.epilogue-extra-bold-white-12px {
+  color: var(--white);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+.explore-screen-vortex {
+  background-color: var(--black-2);
   height: 100vh;
   margin: 0px;
-  min-height: 184px;
-  min-width: 270px;
+  min-height: 1745px;
+  min-width: 1440px;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-.explore-updown .button-normal-pRIhoq {
+.explore-screen-vortex .button-normal-BXo1zc {
   background-color: var(--mist-gray);
   height: 30px;
-  left: 31px;
+  left: 50px;
   position: absolute;
   top: 135px;
-  width: 208px;
+  width: 177px;
 }
-.explore-updown .directiona-ing-149296-pRIhoq {
+.explore-screen-vortex .close-C61RwL {
   background-color: transparent;
-  height: auto;
-  left: 34px;
-  letter-spacing: 0.00px;
+  background-image: url(../img/ellipse-16@2x.svg);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 1074px;
   position: absolute;
-  text-align: left;
-  top: 78px;
-  width: 194px;
+  top: 618px;
+  width: 29px;
 }
-.explore-updown .ellipse-10-pRIhoq {
+.explore-screen-vortex .ellipse-10-BXo1zc {
   background-color: transparent;
   height: 12px;
   left: 40px;
@@ -49,7 +56,7 @@
   top: 26px;
   width: 12px;
 }
-.explore-updown .explore-C61RwL {
+.explore-screen-vortex .explore-VtFHeE {
   background-color: var(--white);
   border-radius: 62px;
   height: 184px;
@@ -58,7 +65,16 @@
   top: 0px;
   width: 270px;
 }
-.explore-updown .in-develop-ent-149293-pRIhoq {
+.explore-screen-vortex .explore-vortex-C61RwL {
+  background-color: transparent;
+  height: 184px;
+  left: 841px;
+  overflow: hidden;
+  position: absolute;
+  top: 610px;
+  width: 270px;
+}
+.explore-screen-vortex .in-develop-7422149311-BXo1zc {
   background-color: transparent;
   height: auto;
   left: 57px;
@@ -68,7 +84,17 @@
   top: 24px;
   width: auto;
 }
-.explore-updown .updown-fin-nce-149295-pRIhoq {
+.explore-screen-vortex .money-mark-7422149314-BXo1zc {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 78px;
+  width: 200px;
+}
+.explore-screen-vortex .vortex-i177422149313-BXo1zc {
   background-color: transparent;
   height: auto;
   left: 40px;
@@ -78,15 +104,25 @@
   top: 49px;
   width: auto;
 }
-.explore-updown .vote-i14929738139-UVqNxU {
+.explore-screen-vortex .vote-i1774-4931538139-WoCkmE {
   background-color: transparent;
   height: 53.33%;
-  left: 18.27%;
+  left: 21.47%;
   letter-spacing: 0.00px;
   position: absolute;
   text-align: center;
   top: 23.33%;
-  width: 64.42%;
+  width: 58.19%;
+}
+.explore-screen-vortex .x-i177366177203-LHZnTa {
+  background-color: transparent;
+  height: 41.38%;
+  left: 37.93%;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 31.03%;
+  width: 34.48%;
 }
 .karla-extra-bold-black-14px {
   color: var(--black);
@@ -111,6 +147,7 @@
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.1);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);

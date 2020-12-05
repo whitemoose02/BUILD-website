@@ -13,6 +13,13 @@
   font-style: normal;
   font-weight: 700;
 }
+.epilogue-extra-bold-white-12px {
+  color: var(--white);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
 .home {
   background-color: rgba(0,0,0,1.0);
   height: 2309px;
@@ -849,6 +856,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.1);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);
@@ -867,6 +875,13 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.epilogue-extra-bold-white-12px {
+  color: var(--white);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
 }
 .karla-extra-bold-black-14px {
   color: var(--black);
@@ -954,7 +969,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 294px;
 }
 .products .bgold-92242-LiMbeo {
-  --anima-z-index: 2;
+  --anima-z-index: 1;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -972,7 +987,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 212px;
 }
 .products .binary-options-95177-PFs4oT {
-  --anima-z-index: 2;
+  --anima-z-index: 1;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1020,18 +1035,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   text-align: left;
   top: 289px;
   width: 1074px;
-}
-.products .build-prod-0-invert-1-PFs4oT {
-  --anima-z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/build-products-constellation-0010-invert-1@2x.png);
-  background-size: 100% 100%;
-  height: 68px;
-  left: 0px;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  width: 67px;
 }
 .products .build-prod-e-1-copy-2-C61RwL {
   --anima-z-index: 4;
@@ -1081,18 +1084,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 582px;
   width: 145px;
 }
-.products .build-prod-etric-logo-0YAJyy {
-  --anima-z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/build-products-constellation-0014-metric-logo@2x.png);
-  background-size: 100% 100%;
-  height: 64px;
-  left: 1px;
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  width: 63px;
-}
 .products .build-prod-gle-1-copy-C61RwL {
   --anima-z-index: 6;
   background-color: transparent;
@@ -1104,18 +1095,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   position: absolute;
   top: 550px;
   width: 278px;
-}
-.products .build-prod-old-symbol-LiMbeo {
-  --anima-z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/build-products-constellation-0001-bgold-symbol@2x.png);
-  background-size: 100% 100%;
-  height: 42px;
-  left: 251px;
-  opacity: 1;
-  position: absolute;
-  top: 12px;
-  width: 23px;
 }
 .products .buy-build-i44173872-iPe1yZ {
   --anima-z-index: 3;
@@ -1232,7 +1211,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 665px;
 }
 .products .dex-agg-li-ders-92236-0YAJyy {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1286,54 +1265,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   text-decoration: underline;
   top: 1207px;
   width: 160px;
-}
-.products .ellipse-11-0YAJyy {
-  --anima-z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/ellipse-11@2x.svg);
-  background-size: 100% 100%;
-  height: 65px;
-  left: 0px;
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  width: 65px;
-}
-.products .ellipse-12-PFs4oT {
-  --anima-z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/ellipse-12@2x.svg);
-  background-size: 100% 100%;
-  height: 65px;
-  left: 1px;
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  width: 65px;
-}
-.products .ellipse-13-LiMbeo {
-  --anima-z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/ellipse-13@2x.svg);
-  background-size: 100% 100%;
-  height: 65px;
-  left: 229px;
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  width: 65px;
-}
-.products .ellipse-14-PICcqq {
-  --anima-z-index: 0;
-  background-color: transparent;
-  background-image: url(../img/ellipse-14@2x.svg);
-  background-size: 100% 100%;
-  height: 65px;
-  left: 225px;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  width: 65px;
 }
 .products .ellipse-15-C61RwL {
   --anima-z-index: 2;
@@ -1425,7 +1356,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 9.86%;
 }
 .products .gold-pegge-coin-92243-LiMbeo {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1459,6 +1390,54 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   text-align: left;
   top: 57.97%;
   width: 9.86%;
+}
+.products .group-5-PICcqq {
+  --anima-z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/group-5@1x.png);
+  background-size: 100% 100%;
+  height: 205px;
+  left: 155px;
+  opacity: 1;
+  position: absolute;
+  top: -70px;
+  width: 205px;
+}
+.products .group-6-0YAJyy {
+  --anima-z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/group-6@1x.png);
+  background-size: 100% 100%;
+  height: 206px;
+  left: -70px;
+  opacity: 1;
+  position: absolute;
+  top: -70px;
+  width: 205px;
+}
+.products .group-7-PFs4oT {
+  --anima-z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/group-7@1x.png);
+  background-size: 100% 100%;
+  height: 206px;
+  left: -69px;
+  opacity: 1;
+  position: absolute;
+  top: -70px;
+  width: 205px;
+}
+.products .group-8-LiMbeo {
+  --anima-z-index: 0;
+  background-color: transparent;
+  background-image: url(../img/group-8@1x.png);
+  background-size: 100% 100%;
+  height: 206px;
+  left: 159px;
+  opacity: 1;
+  position: absolute;
+  top: -70px;
+  width: 205px;
 }
 .products .i-602-C61RwL {
   --anima-z-index: 14;
@@ -1538,18 +1517,6 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   top: 73.91%;
   width: 1.67%;
 }
-.products .image-4-PICcqq {
-  --anima-z-index: 1;
-  background-color: transparent;
-  background-image: url(../img/image-4@2x.jpg);
-  background-size: 100% 100%;
-  height: 43px;
-  left: 235px;
-  opacity: 1;
-  position: absolute;
-  top: 12px;
-  width: 44px;
-}
 .products .image-6-iPe1yZ {
   --anima-z-index: 8;
   background-color: transparent;
@@ -1616,7 +1583,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 297px;
 }
 .products .metric-exc-ange-92227-0YAJyy {
-  --anima-z-index: 2;
+  --anima-z-index: 1;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1634,7 +1601,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 212px;
 }
 .products .money-market-962-PICcqq {
-  --anima-z-index: 2;
+  --anima-z-index: 1;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1653,7 +1620,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 .products .nav-C61RwL {
   --anima-z-index: 0;
-  background-color: transparent;
+  background-color: rgba(0,0,0,1.0);
   height: 86px;
   left: 0px;
   opacity: 1;
@@ -1856,7 +1823,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 301px;
 }
 .products .updown-finance-92238-PFs4oT {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1893,7 +1860,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
   width: 160px;
 }
 .products .vortex-961-PICcqq {
-  --anima-z-index: 3;
+  --anima-z-index: 2;
   background-color: transparent;
   border: 1px solid transparent;
   color: rgba(255,255,255,1.0);
@@ -1922,6 +1889,7 @@ box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.1);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);

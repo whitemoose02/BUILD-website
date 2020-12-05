@@ -1,4 +1,4 @@
-/* screen - explore-vortex */
+/* screen - explore-screen-bgold */
 
 .border-class-1 {
   border: 1px solid transparent;
@@ -13,62 +13,24 @@
   font-style: normal;
   font-weight: 700;
 }
-.explore-vortex {
-  background-color: transparent;
+.epilogue-extra-bold-white-12px {
+  color: var(--white);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+.explore-screen-bgold {
+  background-color: var(--black-2);
   height: 100vh;
   margin: 0px;
-  min-height: 184px;
-  min-width: 270px;
+  min-height: 1745px;
+  min-width: 1440px;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-.explore-vortex .button-normal-pRIhoq {
-  background-color: var(--mist-gray);
-  height: 30px;
-  left: 50px;
-  position: absolute;
-  top: 135px;
-  width: 177px;
-}
-.explore-vortex .ellipse-10-pRIhoq {
-  background-color: transparent;
-  height: 12px;
-  left: 40px;
-  position: absolute;
-  top: 26px;
-  width: 12px;
-}
-.explore-vortex .explore-C61RwL {
-  background-color: var(--white);
-  border-radius: 62px;
-  height: 184px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 270px;
-}
-.explore-vortex .in-develop-ent-149311-pRIhoq {
-  background-color: transparent;
-  height: auto;
-  left: 57px;
-  letter-spacing: 0.00px;
-  position: absolute;
-  text-align: left;
-  top: 24px;
-  width: auto;
-}
-.explore-vortex .money-market-149314-pRIhoq {
-  background-color: transparent;
-  height: auto;
-  left: 40px;
-  letter-spacing: 0.00px;
-  position: absolute;
-  text-align: left;
-  top: 78px;
-  width: 200px;
-}
-.explore-vortex .vortex-149313-pRIhoq {
+.explore-screen-bgold .b-gold-i177413149304-m6vUUI {
   background-color: transparent;
   height: auto;
   left: 40px;
@@ -78,7 +40,71 @@
   top: 49px;
   width: auto;
 }
-.explore-vortex .vote-i14931538139-UVqNxU {
+.explore-screen-bgold .button-normal-m6vUUI {
+  background-color: var(--mist-gray);
+  height: 30px;
+  left: 50px;
+  position: absolute;
+  top: 135px;
+  width: 177px;
+}
+.explore-screen-bgold .close-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/ellipse-16@2x.svg);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 1091px;
+  position: absolute;
+  top: 484px;
+  width: 29px;
+}
+.explore-screen-bgold .ellipse-10-m6vUUI {
+  background-color: transparent;
+  height: 12px;
+  left: 40px;
+  position: absolute;
+  top: 26px;
+  width: 12px;
+}
+.explore-screen-bgold .explore-b-gold-C61RwL {
+  background-color: transparent;
+  height: 185px;
+  left: 856px;
+  overflow: hidden;
+  position: absolute;
+  top: 475px;
+  width: 270px;
+}
+.explore-screen-bgold .explore-nK2KA3 {
+  background-color: var(--white);
+  border-radius: 62px;
+  height: 185px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 270px;
+}
+.explore-screen-bgold .gold-pegge-7413149305-m6vUUI {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 78px;
+  width: 194px;
+}
+.explore-screen-bgold .in-develop-7413149302-m6vUUI {
+  background-color: transparent;
+  height: auto;
+  left: 57px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 24px;
+  width: auto;
+}
+.explore-screen-bgold .vote-i1774-4930638139-SVxsQ7 {
   background-color: transparent;
   height: 53.33%;
   left: 21.47%;
@@ -87,6 +113,16 @@
   text-align: center;
   top: 23.33%;
   width: 58.19%;
+}
+.explore-screen-bgold .x-i177363177203-LHZnTa {
+  background-color: transparent;
+  height: 41.38%;
+  left: 37.93%;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 31.03%;
+  width: 34.48%;
 }
 .karla-extra-bold-black-14px {
   color: var(--black);
@@ -111,6 +147,7 @@
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.1);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);

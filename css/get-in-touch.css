@@ -13,6 +13,13 @@
   font-style: normal;
   font-weight: 700;
 }
+.epilogue-extra-bold-white-12px {
+  color: var(--white);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
 .get-in-touch {
   background-color: transparent;
   height: 100vh;
@@ -286,6 +293,7 @@
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.1);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);

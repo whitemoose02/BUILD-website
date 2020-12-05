@@ -1,4 +1,4 @@
-/* screen - explore-bgold */
+/* screen - explore-screen-metric */
 
 .border-class-1 {
   border: 1px solid transparent;
@@ -13,52 +13,42 @@
   font-style: normal;
   font-weight: 700;
 }
-.explore-bgold {
-  background-color: transparent;
+.epilogue-extra-bold-white-12px {
+  color: var(--white);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+.explore-screen-metric {
+  background-color: var(--black-2);
   height: 100vh;
   margin: 0px;
-  min-height: 185px;
-  min-width: 270px;
+  min-height: 1745px;
+  min-width: 1440px;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
-.explore-bgold .b-gold-149304-pRIhoq {
-  background-color: transparent;
-  height: auto;
-  left: 40px;
-  letter-spacing: 0.00px;
-  position: absolute;
-  text-align: left;
-  top: 49px;
-  width: auto;
-}
-.explore-bgold .button-normal-pRIhoq {
+.explore-screen-metric .button-normal-Le6lzv {
   background-color: var(--mist-gray);
   height: 30px;
-  left: 50px;
+  left: 37px;
   position: absolute;
   top: 135px;
-  width: 177px;
+  width: 197px;
 }
-.explore-bgold .ellipse-10-pRIhoq {
+.explore-screen-metric .close-C61RwL {
   background-color: transparent;
-  height: 12px;
-  left: 40px;
+  background-image: url(../img/ellipse-16@2x.svg);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 570px;
   position: absolute;
-  top: 26px;
-  width: 12px;
+  top: 500px;
+  width: 29px;
 }
-.explore-bgold .explore-C61RwL {
-  background-color: var(--white);
-  border-radius: 62px;
-  height: 185px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 270px;
-}
-.explore-bgold .gold-pegge-oin-149305-pRIhoq {
+.explore-screen-metric .dex-aggreg-i177191613-Le6lzv {
   background-color: transparent;
   height: auto;
   left: 40px;
@@ -66,9 +56,35 @@
   position: absolute;
   text-align: left;
   top: 78px;
-  width: 194px;
+  width: 196px;
 }
-.explore-bgold .in-develop-ent-149302-pRIhoq {
+.explore-screen-metric .ellipse-10-Le6lzv {
+  background-color: transparent;
+  height: 12px;
+  left: 40px;
+  position: absolute;
+  top: 26px;
+  width: 12px;
+}
+.explore-screen-metric .explore-dI8Km1 {
+  background-color: var(--white);
+  border-radius: 62px;
+  height: 184px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 270px;
+}
+.explore-screen-metric .explore-metric-C61RwL {
+  background-color: transparent;
+  height: 184px;
+  left: 336px;
+  overflow: hidden;
+  position: absolute;
+  top: 497px;
+  width: 270px;
+}
+.explore-screen-metric .live-i177191618-Le6lzv {
   background-color: transparent;
   height: auto;
   left: 57px;
@@ -78,15 +94,35 @@
   top: 24px;
   width: auto;
 }
-.explore-bgold .vote-i14930638139-UVqNxU {
+.explore-screen-metric .metric-i177191612-Le6lzv {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 49px;
+  width: auto;
+}
+.explore-screen-metric .vote-i1771-1441838139-H7uEdq {
   background-color: transparent;
   height: 53.33%;
-  left: 21.47%;
+  left: 19.29%;
   letter-spacing: 0.00px;
   position: absolute;
   text-align: center;
   top: 23.33%;
-  width: 58.19%;
+  width: 62.44%;
+}
+.explore-screen-metric .x-i177369177203-LHZnTa {
+  background-color: transparent;
+  height: 41.38%;
+  left: 37.93%;
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: 31.03%;
+  width: 34.48%;
 }
 .karla-extra-bold-black-14px {
   color: var(--black);
@@ -111,6 +147,7 @@
 }
 :root {
   --black: rgba(0,0,0,1.0);
+  --black-2: rgba(0,0,0,0.1);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);
