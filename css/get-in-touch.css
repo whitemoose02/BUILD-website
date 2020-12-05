@@ -6,8 +6,18 @@
 .border-class-2 {
   border: 3px solid var(--black);
 }
+.border-class-3 {
+  border: 1px solid var(--black-haze);
+}
 .epilogue-bold-black-20px {
   color: var(--black);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.epilogue-bold-white-20px {
+  color: var(--white);
   font-family: 'Epilogue', Helvetica, Arial, serif;
   font-size: 20px;
   font-style: normal;
@@ -270,6 +280,27 @@
   top: 62.40%;
   width: 11.22%;
 }
+.karla-bold-black-8px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+}
+.karla-bold-white-12px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.karla-bold-white-16px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
 .karla-extra-bold-black-14px {
   color: var(--black);
   font-family: 'Karla', Helvetica, Arial, serif;
@@ -291,9 +322,17 @@
   font-style: normal;
   font-weight: 300;
 }
+.robotomono-bold-white-14px {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
 :root {
   --black: rgba(0,0,0,1.0);
   --black-2: rgba(0,0,0,0.1);
+  --black-haze: rgba(246,246,246,1.0);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);

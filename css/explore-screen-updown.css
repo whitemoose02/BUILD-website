@@ -6,8 +6,18 @@
 .border-class-2 {
   border: 3px solid var(--black);
 }
+.border-class-3 {
+  border: 1px solid var(--black-haze);
+}
 .epilogue-bold-black-20px {
   color: var(--black);
+  font-family: 'Epilogue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.epilogue-bold-white-20px {
+  color: var(--white);
   font-family: 'Epilogue', Helvetica, Arial, serif;
   font-size: 20px;
   font-style: normal;
@@ -24,7 +34,7 @@
   background-color: var(--black-2);
   height: 100vh;
   margin: 0px;
-  min-height: 1745px;
+  min-height: 901px;
   min-width: 1440px;
   overflow: hidden;
   position: relative;
@@ -34,18 +44,24 @@
   background-color: var(--mist-gray);
   height: 30px;
   left: 31px;
+  pointer-events: auto;
   position: absolute;
   top: 135px;
+  transition: all 0.2s ease;
   width: 208px;
+}
+.explore-screen-updown .button-normal-FXN2qh:hover {
+
+transform: translate(0, -5px);
 }
 .explore-screen-updown .close-C61RwL {
   background-color: transparent;
-  background-image: url(../img/ellipse-16@2x.svg);
+  background-image: url(../img/ellipse-16-1@2x.svg);
   background-size: 100% 100%;
   height: 29px;
-  left: 572px;
+  left: calc(50.00% - 148px);
   position: absolute;
-  top: 617px;
+  top: calc(50.00% + 166px);
   width: 29px;
 }
 .explore-screen-updown .directiona-7404149296-FXN2qh {
@@ -78,10 +94,10 @@
 .explore-screen-updown .explore-updown-C61RwL {
   background-color: transparent;
   height: 184px;
-  left: 333px;
+  left: calc(50.00% - 387px);
   overflow: hidden;
   position: absolute;
-  top: 606px;
+  top: calc(50.00% + 156px);
   width: 270px;
 }
 .explore-screen-updown .in-develop-7404149293-FXN2qh {
@@ -124,6 +140,27 @@
   top: 31.03%;
   width: 34.48%;
 }
+.karla-bold-black-8px {
+  color: var(--black);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+}
+.karla-bold-white-12px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+.karla-bold-white-16px {
+  color: var(--white);
+  font-family: 'Karla', Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
 .karla-extra-bold-black-14px {
   color: var(--black);
   font-family: 'Karla', Helvetica, Arial, serif;
@@ -145,9 +182,17 @@
   font-style: normal;
   font-weight: 300;
 }
+.robotomono-bold-white-14px {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
 :root {
   --black: rgba(0,0,0,1.0);
   --black-2: rgba(0,0,0,0.1);
+  --black-haze: rgba(246,246,246,1.0);
   --eerie-black: rgba(28,28,28,1.0);
   --mist-gray: rgba(196,196,196,1.0);
   --white: rgba(255,255,255,1.0);
