@@ -58,11 +58,11 @@ transform: translate(0, -5px);
   background-color: transparent;
   background-image: url(../img/ellipse-16@2x.png);
   background-size: 100% 100%;
-  height: 3.22%;
-  left: 39.72%;
+  height: 29px;
+  left: calc(50.00% - 148px);
   position: absolute;
-  top: 68.48%;
-  width: 2.01%;
+  top: calc(50.00% + 166px);
+  width: 29px;
 }
 .explore-screen-updown .directiona-7404149296-FXN2qh {
   background-color: transparent;
@@ -94,12 +94,12 @@ transform: translate(0, -5px);
 }
 .explore-screen-updown .explore-updown-C61RwL {
   background-color: transparent;
-  height: 20.42%;
-  left: 23.12%;
+  height: 184px;
+  left: calc(50.00% - 387px);
   overflow: hidden;
   position: absolute;
-  top: 67.26%;
-  width: 18.75%;
+  top: calc(50.00% + 156px);
+  width: 270px;
 }
 .explore-screen-updown .in-develop-7404149293-FXN2qh {
   background-color: transparent;

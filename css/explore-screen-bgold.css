@@ -69,11 +69,11 @@ transform: translate(0, -5px);
   background-color: transparent;
   background-image: url(../img/ellipse-16@2x.png);
   background-size: 100% 100%;
-  height: 3.22%;
-  left: 75.76%;
+  height: 29px;
+  left: calc(50.00% + 371px);
   position: absolute;
-  top: 53.72%;
-  width: 2.01%;
+  top: calc(50.00% + 34px);
+  width: 29px;
 }
 .explore-screen-bgold .ellipse-10-m6vUUI {
   background-color: transparent;
@@ -85,12 +85,12 @@ transform: translate(0, -5px);
 }
 .explore-screen-bgold .explore-b-gold-C61RwL {
   background-color: transparent;
-  height: 20.53%;
-  left: 59.44%;
+  height: 185px;
+  left: calc(50.00% + 136px);
   overflow: hidden;
   position: absolute;
-  top: 52.72%;
-  width: 18.75%;
+  top: calc(50.00% + 24px);
+  width: 270px;
 }
 .explore-screen-bgold .explore-nK2KA3 {
   background-color: var(--white);
